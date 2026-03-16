@@ -5,3 +5,5 @@ opencv-python-headless
 python-multipart
 numpy
 pydantic
+boto3
+python-dotenv
