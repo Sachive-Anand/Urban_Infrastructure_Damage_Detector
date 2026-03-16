@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback } from 'react'
 
-const API = 'http://localhost:8000'
+const API = 'https://urban-infrastructure-damage-detector.onrender.com'
 
 const SEVERITY_STYLE = {
   High:    { bg: '#1f0808', border: '#6b1a1a', text: '#ff8a8a', dot: '#ef4444' },
