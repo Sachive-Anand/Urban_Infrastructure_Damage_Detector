@@ -53,7 +53,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://urban-infrastructure-damage-detecto.vercel.app",
-        "https://urban-infrastructure-damage-detector-ld2xh8zb4.vercel.app"
+        "https://urban-infrastructure-damage-detector-ld2xh8zb4.vercel.app",
         os.getenv("FRONTEND_URL", "*"),
         "http://localhost:5173",
         "http://localhost:5174",
